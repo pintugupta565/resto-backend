@@ -28,7 +28,7 @@ router.get('/:restaurant_id', async (req, res) => {
       if (restaurants.length === 0) {
           return res.status(404).json({ message: 'Restaurant not found' });
       }
-      
+           
       res.json({
           message: 'Restaurant retrieved successfully',
           data: restaurants // returns single restaurant object

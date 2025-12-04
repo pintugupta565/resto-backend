@@ -19,7 +19,7 @@ const db = require('../config/db');
 //     next();
 //   });
 // };
-
+  
 // Get all menu items
 router.get('/', async (req, res) => {
   try {
